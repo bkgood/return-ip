@@ -5,9 +5,9 @@ UDP service that responds to messages received with the source IP address, in AS
 ## example session
 
 ```
-$ nc -6 -u -w1 HOST 12345 < <(perl -E 'say "hi"x11')
+$ nc -6 -u -w1 HOST 12345 < <(perl -E 'say "hi"x20')
 AN:IPV6:ADDRESS:...
-$ nc -4 -u -w1 HOST 12345 < <(perl -E 'say "hi"x11')
+$ nc -4 -u -w1 HOST 12345 < <(perl -E 'say "hi"x20')
 AN.IPV4.ADDRESS.FOO
 ```
 
